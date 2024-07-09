@@ -1,5 +1,6 @@
 # recall-shaped-by-inference
 
+[![DOI](https://zenodo.org/badge/808132698.svg)](https://zenodo.org/doi/10.5281/zenodo.12699872)
 
 
 Repository for the paper "Free recall is shaped by inference and scaffolded by event structure" 
