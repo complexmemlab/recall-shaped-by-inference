@@ -1,0 +1,24 @@
+name: writ-fr
+channels:
+  - defaults
+  - conda-forge
+  - ejolly
+dependencies:
+  - matplotlib
+  - pandas
+  - seaborn
+  - numpy
+  - ipython
+  - pingouin
+  - jupyter
+  - r-base
+  - r-essentials
+  - r-lme4
+  - r-lmertest
+  - r-pillar
+  - pymer4
+  - r
+  - r-emmeans
+  - rpy2
+  - r-vctrs[version='>=0.5.0']
+  - openpyxl
