@@ -21,7 +21,7 @@ MODELS = {
     ),
     "decayfeaturerl": ModelInfo(
         DecayFeatureRL,
-        [ss.beta(2, 2), ss.gamma(3, scale=0.2), ss.beta(2, 2), ss.norm(0, 1)],
+        [ss.beta(2, 2), ss.gamma(4.82, scale=0.88), ss.beta(2, 2), ss.norm(0, 1)],
         [(1e-9, 1 - (1e-9)), (1e-9, 10), (1e-9, 1 - (1e-9)), (-20, 20)],
         "DecayFeatureRL",
         ["eta", "beta", "decay", "resp_st"],
