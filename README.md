@@ -11,11 +11,17 @@ Organization:
 │   ├── data : code for processing the data and generating demographics information
 │   └── models : code for the reinforcement learning model
 ├── data : all data analyzed in the paper
-│   ├── raw : raw data file
+│   ├── raw : raw data files (these have been moved to the OSF https://osf.io/3d746/
+│   │   ├── exp1: Main manuscript files
+│   │   └── exp2: Replication files
 │   ├── interim : data that has undergone some processing
+│   │   ├── exp1: Main manuscript files
+│   │   └── exp2: Replication files
 │   └── processed : processed data
+│   │   ├── exp1: Main manuscript files
+│   │   └── exp2: Replication files
 └── results : all results generated in the paper
-    └── figs : png copies of data figures used in paper
+    └── figs : png and pdf copies of data figures used in paper
 ```
 
 ## One time setup
